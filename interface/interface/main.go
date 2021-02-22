@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// &変数　ポインタ　アドレスを取得する
+// *変数 ポインタ表現 実体を取得する
+
 type Stringfy interface {
 	ToString() string
 }
